@@ -10,11 +10,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scrollbar-gutter: stable;
+}
+
 body {
     background-color: var(--main-color);
     font-family: 'Rubik', sans-serif;
     color: #323232;
-    width: 100vw;
 }
 
 .wrapper {
